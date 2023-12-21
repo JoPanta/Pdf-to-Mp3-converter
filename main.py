@@ -16,7 +16,7 @@ pdf_file = ""
 
 window = tk.Tk()
 window.title("PDF CONVERTER")
-window.minsize(width=200, height=200)
+window.minsize(width=500, height=200)
 
 def select_file():
     global pdf_file
